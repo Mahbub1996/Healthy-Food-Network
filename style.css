@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.half-width h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.half-width p {
+    margin-bottom: 60px;
+}
+
+.color-orange{
+    color: orange;
+}
+
+.link-button{
+    text-decoration: none;
+    background: #dc300a;
+    padding: 14px 40px;
+    border-radius: 22px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 1px 0px 12px 4px #000000;
+}
+
+.top-banner{
+    background-image: url(./images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.my-recipies{
+    text-align: center;
+}
+
+.item-box {
+    width: 300px;
+    margin: auto;
+    box-shadow: 1px 0px 28px 17px grey;
+    border-radius: 22px;
+}
+
+.eating-img img {
+    width: 300px;
+    display: block;
+    border-radius: 8%;
+}
+
+.eating-item h2 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+p.recipies-post {
+    width: 525px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.followers-box{
+    display: flex;
+    padding: 0px 175px;
+    margin: 13%;
+    box-shadow: 1px 0px 18px 10px grey;
+    border-radius: 60px;
+}
+.followers-box h1 {
+    padding-left: 111px;
+}
+
+.followers-box span {
+    padding-left: 75px;
+}
+
+#followers-banner{
+    background-image:url(./images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name-of-company{
+    background: #00000078;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-header-bar ul li {
+    list-style: none;
+    float: left;
+    padding: 16px 26px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: arial black;
+    color: #594b4b;
+}
+
+
+.main-header-bar {padding-left: 540px;}
+
+.name-of-company p {
+    color: white;
+}
+
